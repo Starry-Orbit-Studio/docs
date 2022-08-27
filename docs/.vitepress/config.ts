@@ -8,7 +8,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
   title: '星辰之光文档站',
   description: '星辰之光文档共享站',
   appearance: true,
-  base: '/docs',
+  base: '/docs/',
 
   lastUpdated: true,
 
