@@ -3,12 +3,14 @@ import footnote from 'markdown-it-footnote'
 import { VitePWA } from 'vite-plugin-pwa'
 import developer from './sidebar/developer'
 
+const base = '/docs/'
+
 export default defineConfigWithTheme<DefaultTheme.Config>({
   lang: 'zh-CN',
   title: '星辰之光文档站',
   description: '星辰之光文档共享站',
   appearance: true,
-  base: '/docs/',
+  base,
 
   lastUpdated: true,
 
@@ -31,7 +33,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
   },
   // Theme related configurations.
   themeConfig: {
-    logo: '/vite.svg',
+    logo: `${base}vite.svg`,
     nav: [
       { text: '贡献者指北', link: '/developer/' },
     ],
@@ -47,6 +49,8 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     },
     editLink: {
       repo: 'Starry-Orbit-Studio/docs',
+      branch: 'master',
+      dir: 'docs',
       text: '在 Github 上编辑'
     }
   }
