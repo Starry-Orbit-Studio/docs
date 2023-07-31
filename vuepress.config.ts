@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import theme from './vuepress.theme'
+import { searchProPlugin } from 'vuepress-plugin-search-pro'
 
 export default defineUserConfig({
   base: '/docs/',
@@ -35,4 +36,11 @@ export default defineUserConfig({
   dest: 'dist',
   // Enable it with pwa
   // shouldPrefetch: false,
+
+  plugins: [
+    searchProPlugin({
+      // 索引全部内容
+      indexContent: true,
+    }),
+  ],
 })

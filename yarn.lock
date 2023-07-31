@@ -4422,6 +4422,7 @@ __metadata:
     prettier: ^3.0.0
     prettier-plugin-pkg: ^0.18.0
     vuepress: next
+    vuepress-plugin-search-pro: ^2.0.0-beta.234
     vuepress-theme-hope: ^2.0.0-beta.234
   languageName: unknown
   linkType: soft
@@ -7274,6 +7275,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"slimsearch@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "slimsearch@npm:1.0.0"
+  checksum: 3dff17950310bb1a7cbb1e8db4e38decb17be569d1144dfc29fd0fe164938538a9245c08e799a1d2adf739ed2a36053ddda6851267a2f1df1702001e36abd0c0
+  languageName: node
+  linkType: hard
+
 "smart-buffer@npm:^4.2.0":
   version: 4.2.0
   resolution: "smart-buffer@npm:4.2.0"
@@ -8391,6 +8399,39 @@ __metadata:
     vuepress-webpack:
       optional: true
   checksum: 47189ef401ccdb913820ba5c09485d740008f8e71c67891e913a35613f122fc0e79ffa9a84da6f9254bc7309a167783e5ff4690dad3e9d16a2be8d5bd5e6b571
+  languageName: node
+  linkType: hard
+
+"vuepress-plugin-search-pro@npm:^2.0.0-beta.234":
+  version: 2.0.0-beta.234
+  resolution: "vuepress-plugin-search-pro@npm:2.0.0-beta.234"
+  dependencies:
+    "@vuepress/client": 2.0.0-beta.66
+    "@vuepress/shared": 2.0.0-beta.66
+    "@vuepress/utils": 2.0.0-beta.66
+    "@vueuse/core": ^10.2.1
+    cheerio: 1.0.0-rc.12
+    chokidar: ^3.5.3
+    slimsearch: ^1.0.0
+    vue: ^3.3.4
+    vue-router: ^4.2.4
+    vuepress-plugin-sass-palette: 2.0.0-beta.234
+    vuepress-shared: 2.0.0-beta.234
+  peerDependencies:
+    sass-loader: ^13.3.2
+    vuepress: 2.0.0-beta.66
+    vuepress-vite: 2.0.0-beta.66
+    vuepress-webpack: 2.0.0-beta.66
+  peerDependenciesMeta:
+    sass-loader:
+      optional: true
+    vuepress:
+      optional: true
+    vuepress-vite:
+      optional: true
+    vuepress-webpack:
+      optional: true
+  checksum: 4bc9b564e6ccc4a9770a5687b9cd45c7f102d09c562f433342d99bc41633831a6b7e89cb0ca2c5d32aded89b84cbd517b1c87274bbeba8b63bb63e73b17a9f16
   languageName: node
   linkType: hard
 

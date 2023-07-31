@@ -15,6 +15,7 @@
     "prettier": "^3.0.0",
     "prettier-plugin-pkg": "^0.18.0",
     "vuepress": "next",
+    "vuepress-plugin-search-pro": "^2.0.0-beta.234",
     "vuepress-theme-hope": "^2.0.0-beta.234"
   }
 }
