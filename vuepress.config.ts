@@ -4,16 +4,26 @@ import theme from "./vuepress.theme";
 export default defineUserConfig({
   base: "/docs/",
 
+  head: [
+    [
+      'link',
+      {
+        rel: 'icon',
+        href: '/logo.png'
+      }
+    ]
+  ],
+
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "星辰之光文档站",
-      description: "星辰之光文档站",
+      title: "星辰之光文档网络",
+      description: "星辰之光文档网络",
     },
     "/en/": {
       lang: "en-US",
-      title: "Extreme Starry Docs",
-      description: "Extreme Starry Docs",
+      title: "Extreme Starry Document Network",
+      description: "Extreme Starry Document Network",
     },
   },
 
