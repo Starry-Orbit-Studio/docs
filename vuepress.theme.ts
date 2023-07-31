@@ -9,9 +9,9 @@ export default hopeTheme({
 
   logo: '/logo.png',
 
-  repo: 'https://gitlab.com/starry-orbit-studio/extreme-starry/edn',
+  repo: 'https://gitlab.com/starry-orbit-studio/extreme-starry/esdn',
 
-  docsRepo: 'https://gitlab.com/starry-orbit-studio/extreme-starry/edn',
+  docsRepo: 'https://gitlab.com/starry-orbit-studio/extreme-starry/esdn',
 
   docsBranch: 'master',
 
