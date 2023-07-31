@@ -1,66 +1,68 @@
-import { hopeTheme } from "vuepress-theme-hope";
-import * as navbar from "./navbar";
-import * as sidebar from "./sidebar";
+import { hopeTheme } from 'vuepress-theme-hope'
+import * as navbar from './navbar'
+import * as sidebar from './sidebar'
 
 export default hopeTheme({
-  hostname: "https://demo.github.io",
+  hostname: 'https://demo.github.io',
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: 'fontawesome-with-brands',
 
-  logo: "/logo.png",
+  logo: '/logo.png',
 
-  repo: "https://gitlab.com/starry-orbit-studio/extreme-starry/edn",
+  repo: 'https://gitlab.com/starry-orbit-studio/extreme-starry/edn',
 
-  docsRepo: "https://gitlab.com/starry-orbit-studio/extreme-starry/edn",
+  docsRepo: 'https://gitlab.com/starry-orbit-studio/extreme-starry/edn',
 
-  docsBranch: "master",
+  docsBranch: 'master',
 
-  docsDir: "docs",
+  docsDir: 'docs',
 
   locales: {
     /**
      * Chinese locale config
      */
-    "/": {
+    '/': {
       // navbar
       navbar: navbar.zh,
 
       author: {
-        name: "星轨工作室",
-        url: "https://gitlab.com/starry-orbit-studio",
+        name: '星轨工作室',
+        url: 'https://gitlab.com/starry-orbit-studio',
       },
 
       // sidebar
       sidebar: sidebar.zh,
 
-      footer: '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。',
+      footer:
+        '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。',
 
       displayFooter: true,
 
       // page meta
       metaLocales: {
-        editLink: "在 GitLab 上编辑此页",
+        editLink: '在 GitLab 上编辑此页',
       },
     },
 
-    "/en/": {
+    '/en/': {
       // navbar
       navbar: navbar.en,
 
       author: {
-        name: "Starry Orbit Studio",
-        url: "https://gitlab.com/starry-orbit-studio",
+        name: 'Starry Orbit Studio',
+        url: 'https://gitlab.com/starry-orbit-studio',
       },
 
       // sidebar
       sidebar: sidebar.en,
 
-      footer: '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.',
+      footer:
+        '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.',
 
       displayFooter: true,
 
       metaLocales: {
-        editLink: "Edit this page on GitLab",
+        editLink: 'Edit this page on GitLab',
       },
     },
   },
@@ -84,19 +86,19 @@ export default hopeTheme({
       mark: true,
       mermaid: true,
       playground: {
-        presets: ["ts", "vue"],
+        presets: ['ts', 'vue'],
       },
-      presentation: ["highlight", "math", "search", "notes", "zoom"],
+      presentation: ['highlight', 'math', 'search', 'notes', 'zoom'],
       stylize: [
         {
-          matcher: "Recommended",
+          matcher: 'Recommended',
           replacer: ({ tag }) => {
-            if (tag === "em")
+            if (tag === 'em')
               return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
+                tag: 'Badge',
+                attrs: { type: 'tip' },
+                content: 'Recommended',
+              }
           },
         },
       ],
@@ -164,4 +166,4 @@ export default hopeTheme({
     //   },
     // },
   },
-});
+})

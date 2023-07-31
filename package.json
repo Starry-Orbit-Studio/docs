@@ -1,16 +1,19 @@
 {
   "name": "extreme-starry-docs",
-  "packageManager": "yarn@3.6.1",
+  "type": "module",
   "description": "Extreme Starry 文档站",
   "license": "CC-BY-NC-SA 4.0",
-  "type": "module",
+  "packageManager": "yarn@3.6.1",
   "scripts": {
     "build": "vuepress build docs",
     "clean-dev": "vuepress dev docs --clean-cache",
     "dev": "vuepress dev docs",
+    "format": "prettier --write --config prettier.config.yaml .",
     "update-package": "yarn dlx vp-update"
   },
   "devDependencies": {
+    "prettier": "^3.0.0",
+    "prettier-plugin-pkg": "^0.18.0",
     "vuepress": "next",
     "vuepress-theme-hope": "^2.0.0-beta.234"
   }
