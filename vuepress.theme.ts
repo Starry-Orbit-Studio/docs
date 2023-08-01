@@ -96,7 +96,25 @@ export default hopeTheme({
       presentation: true,
       delay: 200,
     },
-
+    components: {
+      components: [
+        'ArtPlayer',
+        'AudioPlayer',
+        'Badge',
+        'BiliBili',
+        'CodePen',
+        'FontIcon',
+        'PDF',
+        'Replit',
+        'Share',
+        'StackBlitz',
+        'SiteInfo',
+        'VidStack',
+        'VideoPlayer',
+        'XiGua',
+        'YouTube',
+      ],
+    },
     // uncomment these if you want a pwa
     // pwa: {
     //   favicon: "/favicon.ico",
