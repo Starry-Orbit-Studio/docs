@@ -3,7 +3,7 @@
   "type": "module",
   "description": "Extreme Starry 文档站",
   "license": "CC-BY-NC-SA 4.0",
-  "packageManager": "yarn@3.6.1",
+  "packageManager": "yarn@4.0.2",
   "scripts": {
     "build": "vuepress build docs",
     "clean-dev": "vuepress dev docs --clean-cache",
@@ -15,12 +15,22 @@
     "update-package": "yarn dlx vp-update"
   },
   "devDependencies": {
-    "husky": "^8.0.0",
+    "chart.js": "^4.4.0",
+    "dashjs": "^4.7.2",
+    "echarts": "^5.4.3",
+    "hls.js": "^1.4.12",
+    "husky": "^8.0.3",
+    "mathjax-full": "^3.2.2",
+    "mermaid": "^10.6.1",
+    "mpegts.js": "^1.7.3",
     "pinst": "^3.0.0",
-    "prettier": "^3.0.0",
+    "plyr": "^3.7.8",
+    "prettier": "^3.1.0",
     "prettier-plugin-pkg": "^0.18.0",
-    "vuepress": "next",
-    "vuepress-plugin-search-pro": "^2.0.0-beta.234",
-    "vuepress-theme-hope": "^2.0.0-beta.234"
+    "reveal.js": "^5.0.2",
+    "vidstack": "^1.5.6",
+    "vuepress": "2.0.0-rc.0",
+    "vuepress-plugin-search-pro": "2.0.0-rc.0",
+    "vuepress-theme-hope": "2.0.0-rc.0"
   }
 }

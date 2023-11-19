@@ -89,11 +89,11 @@ export default hopeTheme({
       imgSize: true,
       obsidianImgSize: true,
       tasklist: true,
-      card: true,
+      component: true,
       chart: true,
       echarts: true,
       mermaid: true,
-      presentation: true,
+      revealJs: true,
       delay: 200,
     },
     components: {
