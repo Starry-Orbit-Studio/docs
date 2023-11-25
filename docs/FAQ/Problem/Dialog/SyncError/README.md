@@ -1,0 +1,12 @@
+---
+title: Extreme Starry 疑难解答向导
+layout: GuideLayout
+guideHome: /FAQ
+---
+
+此时请点击[确定]
+并与至少一名您当前场次游玩的玩家取得联系
+请确定问题发生的时机
+
+<GuideButton to="/FAQ/Problem/Dialog/SyncError/OnStart">游戏开始后5分钟内（大约在展开基地后建造了一个电厂的时间）</GuideButton>
+<GuideButton to="/FAQ/Problem/Dialog/SyncError/OnGaming">游戏开始一段时间后</GuideButton>
