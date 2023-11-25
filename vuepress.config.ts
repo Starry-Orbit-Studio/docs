@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress'
-import theme from './vuepress.theme'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
+import ESDNGuide from './plugins/guide'
+import theme from './vuepress.theme'
 
 export default defineUserConfig({
   base: '/docs/',
@@ -42,5 +43,6 @@ export default defineUserConfig({
       // 索引全部内容
       indexContent: true,
     }),
+    ESDNGuide(),
   ],
 })
