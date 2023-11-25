@@ -1,5 +1,5 @@
 <template>
-  <div class="guide-layout-panel">
+  <div class="guide-layout-panel" :style="{ backgroundImage: `url('${bg}')` }">
     <div class="guide-layout">
       <div>
         <a :href="withBase('/')" target="_blank">
@@ -36,6 +36,7 @@ const frontmatter = usePageFrontmatter<{
 }>()
 const router = useRouter()
 const goback = () => router.back()
+const bg = withBase('/background.png')
 </script>
 
 <style lang="scss">
@@ -60,7 +61,6 @@ const goback = () => router.back()
   justify-content: center;
 
   position: relative;
-  background-image: url('/docs/background.jpg') !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
