@@ -46,9 +46,6 @@ const goback = () => router.back()
     font-weight: 400;
   }
 
-  width: 100vw;
-  height: 100vh;
-
   [data-theme='light'] & {
     color: #213547;
   }
@@ -56,11 +53,11 @@ const goback = () => router.back()
     color: #ffffffde;
   }
 
+  width: 100%;
+  min-height: 100vh;
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
 
   position: relative;
   background-image: url('/docs/background.jpg') !important;
