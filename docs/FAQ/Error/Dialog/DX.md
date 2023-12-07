@@ -4,4 +4,6 @@ layout: GuideLayout
 guideHome: /FAQ
 ---
 
-选Launch OpenGL version
+![](image/DX/1701919616451.png)
+
+请选择`Launch OpenGL version`选项
