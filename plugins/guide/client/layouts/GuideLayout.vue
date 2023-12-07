@@ -44,7 +44,10 @@ const bg = withBase('/background.png')
   * {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
-    font-weight: 400;
+  }
+  em {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 0.25rem;
   }
 
   [data-theme='light'] & {
@@ -93,6 +96,11 @@ const bg = withBase('/background.png')
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+    ol,
+    ul,
+    .hint-container {
+      text-align: left;
+    }
 
     .logo {
       height: 6em;
@@ -133,6 +141,10 @@ const bg = withBase('/background.png')
     h1 {
       font-size: 3.2em;
       line-height: 1.1;
+    }
+
+    tr:nth-child(2n) {
+      background-color: var(--card-shadow);
     }
   }
 }
