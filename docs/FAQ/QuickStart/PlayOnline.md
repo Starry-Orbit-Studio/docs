@@ -42,3 +42,7 @@ guideHome: /FAQ
 当房间内所有玩家都进入准备状态后，房主即可开始游戏
 
 如果您想了解房间内所有选项的功能和含义，请参见[战斗设置说明](BattleSetting)
+
+<GuideButton to="/FAQ/QuickStart/BattleSetting">下一页：遭遇战以及多人联机相关设置</GuideButton>
+<GuideButton to="/FAQ/QuickStart/PlayMission">上一页：如何游玩战役</GuideButton>
+<GuideButton to="/FAQ/QuickStart/PlaySkirmish">上一页：如何进行遭遇战模式</GuideButton>

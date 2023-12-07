@@ -8,7 +8,7 @@ guideHome: /FAQ
 
 所需运行库
 
-[.NET Framework 4.5.2](https://download.microsoft.com/download/E/2/1/E21644B5-2DF2-47C2-91BD-63C560427900/NDP452-KB2901907-x86-x64-AllOS-ENU.exe) 或更新版本 (windows 7 需要手动下载并安装此运行库)
+[.NET Framework 4.5.2](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/thank-you/net452-offline-installer) 或更新版本 (windows 7 需要手动下载并安装此运行时)
 
 最低配置
 
@@ -38,4 +38,6 @@ guideHome: /FAQ
 
 在上图窗口中点击`是`按钮，即可进入`设置`页面，调整客户端或者游戏相关设置
 
-您可以参考的[`星辰之光推荐配置`](ESSetting)来快速完成设置
+您可以参考的[`推荐配置`](ESSetting)来快速完成客户端设置
+
+<GuideButton to="/FAQ/QuickStart/ESSetting">下一页：推荐设置</GuideButton>

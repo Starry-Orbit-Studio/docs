@@ -28,3 +28,8 @@ guideHome: /FAQ
 [`战役`](PlayMission)
 [`遭遇战模式`](PlaySkirmish)
 [`多人联机模式`](PlayOnline)
+
+<GuideButton to="/FAQ/QuickStart/PlayMission">下一页：如何游玩战役</GuideButton>
+<GuideButton to="/FAQ/QuickStart/PlaySkirmish">下一页：如何进行遭遇战模式</GuideButton>
+<GuideButton to="/FAQ/QuickStart/PlayOnline">下一页：如何进行多人游戏</GuideButton>
+<GuideButton to="/FAQ/QuickStart/DownloadES">上一页：下载并安装星辰之光</GuideButton>

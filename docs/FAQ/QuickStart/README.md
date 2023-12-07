@@ -11,8 +11,9 @@ guideHome: /FAQ
 <GuideButton to="/FAQ/QuickStart/DownloadES">下载并安装星辰之光</GuideButton>
 <GuideButton to="/FAQ/QuickStart/ESSetting">推荐设置</GuideButton>
 <GuideButton to="/FAQ/QuickStart/PlayMission">如何游玩战役</GuideButton>
-<GuideButton to="/FAQ/QuickStart/PlayOnline">如何进行遭遇战模式</GuideButton>
-<GuideButton to="/FAQ/QuickStart/PlaySkirmish">如何进行多人游戏</GuideButton>
+<GuideButton to="/FAQ/QuickStart/PlaySkirmish">如何进行遭遇战模式</GuideButton>
+<GuideButton to="/FAQ/QuickStart/PlayOnline">如何进行多人游戏</GuideButton>
+<GuideButton to="/FAQ/QuickStart/BattleSetting">遭遇战以及多人联机相关设置</GuideButton>
 
 <!-- ## 您可能遇到的问题
 
