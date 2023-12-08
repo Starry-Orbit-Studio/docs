@@ -25,9 +25,11 @@ guideHome: /FAQ
 用户名建议推荐全英文且不要超过20个字符
 
 设置完成后，您便可以开始体验星辰之光的游戏内容了，星辰之光有以下三种游戏模式
-[`战役`](PlayMission)
-[`遭遇战模式`](PlaySkirmish)
-[`多人联机模式`](PlayOnline)
+`战役`
+`遭遇战模式`
+`多人联机模式`
+
+您可以参见下一页了解更多游戏模式的玩法
 
 <GuideButton to="/FAQ/QuickStart/PlayMission">下一页：如何游玩战役</GuideButton>
 <GuideButton to="/FAQ/QuickStart/PlaySkirmish">下一页：如何进行遭遇战模式</GuideButton>

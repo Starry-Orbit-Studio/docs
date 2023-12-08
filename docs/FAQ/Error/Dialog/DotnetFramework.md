@@ -12,6 +12,9 @@ guideHome: /FAQ
 `.NET framework 4.8`安装过程较为简单，不在此处赘述
 
 :::tip
+
+<!-- TODO: 改用GFM语法 -->
+
 `.NET framework`框架是向下兼容的
 :::
 
@@ -35,4 +38,9 @@ https://www.catalog.update.microsoft.com/Search.aspx
 
 除了上述补丁外，您还需要手动更新 Windows 7 的自动更新证书，下载地址为：https://download.microsoft.com/download/2/4/8/248D8A62-FCCD-475C-85E7-6ED59520FC0F/MicrosoftRootCertificateAuthority2011.cer
 
-证书下载完毕后，请安装证书，安装时请将证书`添加到计算机受信任根证书`
+::: left
+:::tip
+
+<!-- TODO: 改用GFM语法 -->
+
+您可能需要手动安装 [微软根证书颁发机构 2011](https://download.microsoft.com/download/2/4/8/248D8A62-FCCD-475C-85E7-6ED59520FC0F/MicrosoftRootCertificateAuthority2011.cer) 证书到 **==计算机== 受信任的根证书颁发机构**

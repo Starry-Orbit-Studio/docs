@@ -8,7 +8,9 @@ guideHome: /FAQ
 
 所需运行库
 
-[.NET Framework 4.5.2](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/thank-you/net452-offline-installer) 或更新版本 (windows 7 需要手动下载并安装此运行时)
+.NET Framework 4.8 或更新版本 (Windows 7 需要手动下载并安装此运行时)
+若您还不清楚您的电脑是否安装了 .NET Framework 4.8
+请参阅[.NET Framework安装教程](../Error/Dialog/DotnetFramework)
 
 最低配置
 
@@ -38,6 +40,6 @@ guideHome: /FAQ
 
 在上图窗口中点击`是`按钮，即可进入`设置`页面，调整客户端或者游戏相关设置
 
-您可以参考的[`推荐配置`](ESSetting)来快速完成客户端设置
+您可以参考`下一页：推荐配置`来快速完成客户端设置
 
 <GuideButton to="/FAQ/QuickStart/ESSetting">下一页：推荐设置</GuideButton>

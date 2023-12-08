@@ -6,6 +6,18 @@ guideHome: /FAQ
 
 ![](image/SDL/1701930223069.png)
 
+---
+
+:::left
+:::warning
+
+<!-- TODO: 改用GFM语法 -->
+
+以下操作将关闭客户端的中文输入法支持功能，建议仅在clientdx无法工作且clientogl点击输入框引起游戏客户端崩溃时才使用上述方法
+:::
+
+:::left
+
 1. 进入星辰之光游戏安装目录
 
 1. 在游戏安装目录下，找到并进入Resources文件夹
@@ -22,7 +34,4 @@ guideHome: /FAQ
 
 1. 保存文件即可
 
-:::warning
-以上操作将关闭客户端的中文输入法支持功能
-建议仅在clientdx无法工作且clientogl点击输入框引起游戏客户端崩溃时才使用上述方法
 :::
