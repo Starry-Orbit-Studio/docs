@@ -3,8 +3,13 @@ import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import ESDNGuide from './plugins/guide'
 import theme from './vuepress.theme'
 
+const base =
+  process.argv.length === 6 && process.argv[5] === 'public'
+    ? '/extreme-starry/document/esdn/'
+    : '/docs/'
+
 export default defineUserConfig({
-  base: '/docs/',
+  base,
 
   head: [
     [
