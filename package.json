@@ -12,28 +12,24 @@
     "postinstall": "husky install",
     "postpack": "pinst --enable",
     "prepack": "pinst --disable",
+    "preview": "yarn dlx live-server --no-browser --mount=/docs/:dist/",
     "update-package": "yarn dlx vp-update"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-rc.0",
-    "chart.js": "^4.4.0",
-    "dashjs": "^4.7.2",
-    "echarts": "^5.4.3",
-    "hls.js": "^1.4.12",
     "husky": "^8.0.3",
-    "mathjax-full": "^3.2.2",
     "mermaid": "^10.6.1",
-    "mpegts.js": "^1.7.3",
     "pinst": "^3.0.0",
-    "plyr": "^3.7.8",
     "prettier": "^3.1.0",
     "prettier-plugin-pkg": "^0.18.0",
-    "reveal.js": "^5.0.2",
     "typescript": "^5.3.2",
-    "vidstack": "^1.5.6",
-    "vue": "3.3.8",
+    "vue": "^3.3.10",
+    "vue-router": "^4.2.5",
     "vuepress": "2.0.0-rc.0",
-    "vuepress-plugin-search-pro": "2.0.0-rc.0",
-    "vuepress-theme-hope": "2.0.0-rc.0"
+    "vuepress-plugin-search-pro": "2.0.0-rc.2",
+    "vuepress-theme-hope": "2.0.0-rc.2"
+  },
+  "resolutions": {
+    "vue": "3.3.9"
   }
 }
