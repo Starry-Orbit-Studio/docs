@@ -1,0 +1,24 @@
+# 选择你要使用的 docker 镜像
+image: node:lts
+
+pages:
+  # 每当 push 到 main 分支时触发部署
+  only:
+    - master
+
+  # 缓存 node_modules
+  cache:
+    key:
+      files:
+        - yarn.lock
+    paths:
+      - .yarn\cache
+
+  # 安装依赖并运行构建脚本
+  script:
+    - yarn install --frozen-lockfile
+    - yarn build --dest public
+
+  artifacts:
+    paths:
+      - public
