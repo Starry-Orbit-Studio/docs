@@ -8,8 +8,8 @@ guideHome: /FAQ
 
 所需运行库
 
-.NET Framework 4.8 或更新版本 (Windows 7 需要手动下载并安装此运行时)
-若您还不清楚您的电脑是否安装了 .NET Framework 4.8
+.NET Framework 4.5.2 或更新版本 (Windows 7 需要手动下载并安装此运行时)
+若您还不清楚您的电脑是否安装了 .NET Framework 4.5.2
 请参阅[.NET Framework安装教程](../Error/Dialog/DotnetFramework)
 
 最低配置
