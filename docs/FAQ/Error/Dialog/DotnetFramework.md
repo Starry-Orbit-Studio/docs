@@ -22,8 +22,8 @@ guideHome: /FAQ
 
 windows 7 用户可能在安装`.NET framework 4.8`时会遇到如下错误：
 
-![](image/dotnetFramework/1701955211732.png =350x)
-![](image/dotnetFramework/1701932585020.png =350x)
+![](image/DotnetFramework/1701955211732.png =350x)
+![](image/DotnetFramework/1701932585020.png =350x)
 
 这个问题是您的 windows 7 系统尚未安装 KB3004394 和 KB2718704 安全补丁导致的
 
