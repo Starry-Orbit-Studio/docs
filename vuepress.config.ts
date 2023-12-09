@@ -3,10 +3,17 @@ import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import ESDNGuide from './plugins/guide'
 import theme from './vuepress.theme'
 
-const base =
-  process.argv.length === 6 && process.argv[5] === 'public'
-    ? '/extreme-starry/document/esdn/'
-    : '/docs/'
+const base = (() => {
+  const pagePath: Record<string, '/' | `/${string}/`> = {
+    default: '/',
+    github: '/docs/',
+    gitlab: '/extreme-starry/document/esdn/',
+  }
+
+  return pagePath[process.argv[4]] ?? pagePath.default
+})()
+
+console.log(`Base is: ${base}`)
 
 export default defineUserConfig({
   base,

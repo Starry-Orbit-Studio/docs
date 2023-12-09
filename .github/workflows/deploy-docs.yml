@@ -34,7 +34,7 @@ jobs:
         run: yarn install
 
       - name: 构建文档
-        run: yarn build
+        run: yarn build github
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1

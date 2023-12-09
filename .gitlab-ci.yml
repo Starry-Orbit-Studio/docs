@@ -17,8 +17,9 @@ pages:
   # 安装依赖并运行构建脚本
   script:
     - yarn install --frozen-lockfile
-    - yarn build --dest public
+    - yarn build gitlab
 
   artifacts:
     paths:
-      - public
+      - dist
+  publish: dist
