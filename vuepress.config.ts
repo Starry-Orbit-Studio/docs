@@ -38,7 +38,7 @@ export default defineUserConfig({
 
   temp: '.temp',
   cache: '.cache',
-  public: 'assets',
+  public: 'public',
   dest: 'dist',
   // Enable it with pwa
   // shouldPrefetch: false,
