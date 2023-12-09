@@ -6,7 +6,7 @@ guideHome: /FAQ
 
 ![](image/DotnetFramework/1701932003198.png)
 
-您还没有安装`.NET framework 4.0`以上版本
+您还没有安装`.NET framework 4.5.2`以上版本
 [点击此处](https://download.visualstudio.microsoft.com/download/pr/2d6bb6b2-226a-4baa-bdec-798822606ff1/8494001c276a4b96804cde7829c04d7f/ndp48-x86-x64-allos-enu.exe)下载并安装`.NET framework 4.8`
 
 `.NET framework 4.8`安装过程较为简单，不在此处赘述
