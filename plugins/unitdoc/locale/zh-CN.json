@@ -1,0 +1,95 @@
+{
+  "default": {
+    "UnitDoc": "Extreme Starry 单位文档",
+    "none": "无",
+    "typeName": "未知类型",
+    "unknown": "未知单位 [{unit}]",
+    "icon": "图标",
+    "description": "介绍",
+    "normal": "普通",
+    "elite": "精英",
+    "extraInfo": "额外信息",
+    "weaponsInfo": "武器信息",
+    "genericPrerequisites": "[{unit}]类",
+
+    "cost": "价格",
+    "power": "电力",
+    "strength": "装甲强度",
+    "armor": "装甲",
+    "prerequisite": "生产前提",
+    "weapons": "武器",
+    "eliteWeapons": "精英武器",
+    "primary": "主要武器",
+    "elitePrimary": "精英主要武器",
+    "secondary": "次要武器",
+    "eliteSecondary": "精英次要武器",
+    "opportunityFire": "可以在移动时开火",
+    "detectDisguise": "能够探测隐形单位",
+    "buildTimeMultiplier": "生产时间系数为 {buildTimeMultiplier}",
+    "crushLevel": "碾压等级 {crushLevel} 级",
+    "omniCrusher": "高级碾压",
+    "buildLimit": "生产数量限制为 {buildLimit} 个",
+    "cloakable": "隐形",
+    "deployer": "可部署",
+    "occupier": "可进驻建筑",
+    "selfHealing": "自愈",
+    "immuneToEMP": "免疫EMP",
+    "immuneToVeins": "免疫病毒",
+    "immuneToPsionics": "免疫混乱",
+    "immuneToRadiation": "免疫辐射",
+    "immuneToPoison": "免疫精神控制",
+    "ammo": "弹药数量 {ammo}",
+    "deploysInto": "可部署成为 {deploysInto}",
+    "cloneable": "不可克隆",
+    "bunkerable": "不可进入战斗碉堡",
+    "trainable": "不可升级",
+    "crushable": "不可被碾压",
+    "isPowered": "需要使用电力",
+    "rechargeTime": "重新补给时间 {rechargeTime}",
+
+    "damage": "伤害",
+    "rof": "射速",
+    "range": "射程",
+    "burst": "连发数",
+    "burstDelays": "连发间隔",
+    "warhead": "弹头",
+
+    "damageModifiers": "伤害修正",
+    "cellSpread": "伤害单位",
+    "affectsAllies": "影响友军",
+    "affectsEnemies": "影响敌军",
+    "affectsOwner": "影响自己"
+  },
+  "InfantryTypes": {
+    "typeName": "步兵",
+    "armor": "护甲",
+    "strength": "护甲强度",
+    "prerequisite": "训练前提",
+    "buildTimeMultiplier": "训练时间系数为 {buildTimeMultiplier}",
+    "buildLimit": "训练数量限制为 {buildLimit} 名"
+  },
+  "VehicleTypes": {
+    "typeName": "载具"
+  },
+  "AircraftTypes": {
+    "typeName": "飞行器"
+  },
+  "BuildingTypes": {
+    "typeName": "建筑物",
+    "prerequisite": "建造前提",
+    "buildTimeMultiplier": "建造时间系数为 {buildTimeMultiplier}",
+    "buildLimit": "建造数量限制为 {buildLimit} 座"
+  },
+  "SuperWeaponTypes": {
+    "typeName": "超级武器"
+  },
+  "WeaponTypes": {
+    "typeName": "武器"
+  },
+  "WarheadTypes": {
+    "typeName": "弹头"
+  },
+  "GenericPrerequisitesTypes": {
+    "typeName": "全局建造前提"
+  }
+}

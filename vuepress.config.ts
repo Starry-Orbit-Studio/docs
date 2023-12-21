@@ -1,6 +1,8 @@
 import { defineUserConfig } from 'vuepress'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import ESDNGuide from './plugins/guide'
+import ESDNUnitDoc from './plugins/unitdoc'
+import units from './units.json'
 import theme from './vuepress.theme'
 
 const base = (() => {
@@ -27,6 +29,8 @@ export default defineUserConfig({
       },
     ],
   ],
+
+  lang: 'zh-CN',
 
   locales: {
     '/': {
@@ -56,5 +60,8 @@ export default defineUserConfig({
       indexContent: true,
     }),
     ESDNGuide(),
+    ESDNUnitDoc(units as any, {
+      prefix: 'units/',
+    }),
   ],
 })
