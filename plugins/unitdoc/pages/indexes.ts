@@ -22,7 +22,8 @@ export const indexes = (
     index: false,
   })
   if (!options.content?.includes(data))
-    options.content = data + (options.content ?? '')
+    options.content =
+      data + '\n' + (options.content?.replace('<AutoCatalog/>', '') ?? '')
 
   return options
 }

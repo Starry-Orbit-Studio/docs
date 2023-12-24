@@ -34,41 +34,88 @@ const plugin =
           Object.entries(app.siteData.locales).flatMap(([base, locale]) => {
             const prefix = base + options.prefix
             const lang = locale.lang ?? app.siteData.lang
+            const knownPages = app.pages.filter(i => i.path.startsWith(prefix))
 
             return __ESDNUnitDoc.units
               .map(unit => {
-                if (
-                  app.pages.find(({ path }) => path === prefix + unit.esdnUri)
+                const options = knownPages.find(
+                  ({ path }) =>
+                    path.toLowerCase() ===
+                    (prefix + unit.esdnUri).toLowerCase(),
                 )
-                  return
-                return units(undefined, __ESDNUnitDoc, prefix, lang, csf, unit)
-              })
-              .concat(
-                ...Object.entries(__ESDNUnitDoc.indexes).map(([type, data]) => {
-                  if (
-                    app.pages.find(({ path }) => path === prefix + type + '/')
+                if (options) {
+                  units(
+                    options as PageOptions,
+                    __ESDNUnitDoc,
+                    prefix,
+                    lang,
+                    csf,
+                    unit,
                   )
-                    return
-                  return indexes(
+                } else {
+                  return units(
                     undefined,
                     __ESDNUnitDoc,
                     prefix,
                     lang,
-                    i18n,
-                    type,
-                    data,
+                    csf,
+                    unit,
                   )
+                }
+              })
+              .concat(
+                ...Object.entries(__ESDNUnitDoc.indexes).map(([type, data]) => {
+                  const options = knownPages.find(
+                    ({ path }) =>
+                      path.toLowerCase() ===
+                      (prefix + type + '/').toLowerCase(),
+                  )
+                  if (options) {
+                    indexes(
+                      options as PageOptions,
+                      __ESDNUnitDoc,
+                      prefix,
+                      lang,
+                      i18n,
+                      type,
+                      data,
+                    )
+                  } else {
+                    return indexes(
+                      undefined,
+                      __ESDNUnitDoc,
+                      prefix,
+                      lang,
+                      i18n,
+                      type,
+                      data,
+                    )
+                  }
                 }),
               )
               .concat(
                 (() => {
-                  if (app.pages.find(({ path }) => path === prefix)) return
-                  return home(undefined, __ESDNUnitDoc, prefix, lang, i18n)
+                  const options = knownPages.find(
+                    ({ path }) => path.toLowerCase() === prefix.toLowerCase(),
+                  )
+                  if (options) {
+                    home(
+                      options as PageOptions,
+                      __ESDNUnitDoc,
+                      prefix,
+                      lang,
+                      i18n,
+                    )
+                  } else {
+                    return home(undefined, __ESDNUnitDoc, prefix, lang, i18n)
+                  }
                 })(),
               )
               .map(async option => {
                 if (!option) return
-                const page = await createPage(app, option)
+                const page = await createPage(app, {
+                  ...option,
+                })
                 // 把它添加到 `app.pages`
                 app.pages.push(page)
               })
@@ -76,20 +123,23 @@ const plugin =
         )
       },
       extendsPageOptions: async (pageOptions, app) => {
-        if (!pageOptions.filePath) return
         const url = (() => {
-          if (pageOptions.filePath.startsWith(fsPathBase)) {
-            const filePath = pageOptions.filePath.substring(fsPathBase.length)
-            const url = filePath.toLowerCase()
-            if (url.endsWith('readme.md'))
-              return basePath(filePath.substring(1, filePath.length - 9))
-            else if (url.endsWith('index.md'))
-              return basePath(filePath.substring(1, filePath.length - 8))
-            else if (url.endsWith('.md'))
-              return basePath(
-                filePath.substring(1, filePath.length - 3) + '.html',
-              )
-          } else return pageOptions.path
+          if (pageOptions.filePath) {
+            if (pageOptions.filePath.startsWith(fsPathBase)) {
+              const filePath = pageOptions.filePath.substring(fsPathBase.length)
+              const url = filePath.toLowerCase()
+              if (url.endsWith('readme.md'))
+                return basePath(filePath.substring(1, filePath.length - 9))
+              else if (url.endsWith('index.md'))
+                return basePath(filePath.substring(1, filePath.length - 8))
+              else if (url.endsWith('.md'))
+                return basePath(
+                  filePath.substring(1, filePath.length - 3) + '.html',
+                )
+            }
+          } else if (pageOptions.path) {
+            return pageOptions.path.substring(1)
+          }
         })()?.toLowerCase()
         if (!url) return
 
@@ -99,36 +149,29 @@ const plugin =
         if (!base) return
 
         const locale = app.siteData.locales[base]
-        const prefix = (base + options.prefix).substring(1).toLowerCase()
+        const prefix = (base + options.prefix).toLowerCase()
         const lang = locale.lang ?? app.siteData.lang
 
-        if (url.endsWith('.html')) {
-          const unit = __ESDNUnitDoc.units.find(i =>
-            (prefix + i.esdnUri).toLowerCase().endsWith(url),
-          )
-          if (unit) {
-            units(pageOptions, __ESDNUnitDoc, prefix, lang, csf, unit)
-          }
-        } else {
-          const type = Object.entries(__ESDNUnitDoc.indexes).find(([type]) =>
-            (prefix + type + '/').toLowerCase().endsWith(url),
-          )
+        if (prefix.startsWith('//'))
+          throw new Error('错误的格式，URL不得以"//"开头。')
 
-          if (type) {
-            indexes(
-              pageOptions,
-              __ESDNUnitDoc,
-              prefix,
-              lang,
-              i18n,
-              type[0],
-              type[1],
-            )
-          } else {
-            if (prefix.toLowerCase().endsWith(url)) {
-              home(pageOptions, __ESDNUnitDoc, prefix, lang, i18n)
-            }
-          }
+        if (url.endsWith('.html')) return
+        const type = Object.entries(__ESDNUnitDoc.indexes).find(([type]) => {
+          return (prefix + type + '/').toLowerCase().endsWith(url)
+        })
+
+        if (type) {
+          indexes(
+            pageOptions,
+            __ESDNUnitDoc,
+            prefix,
+            lang,
+            i18n,
+            type[0],
+            type[1],
+          )
+        } else if (prefix.endsWith(url)) {
+          home(pageOptions, __ESDNUnitDoc, prefix, lang, i18n)
         }
       },
     }

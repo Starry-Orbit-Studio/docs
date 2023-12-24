@@ -23,7 +23,8 @@ export const home = (
     .map(type => `[${i18n('typeName', type + 'Types', lang)}](./${type}/)`)
     .join('\n')
   if (!options.content?.includes(content))
-    options.content = content + (options.content ?? '')
+    options.content =
+      content + '\n' + (options.content?.replace('<AutoCatalog/>', '') ?? '')
 
   return options
 }
