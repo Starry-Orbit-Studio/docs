@@ -15,7 +15,7 @@ guideHome: /FAQ
 
 ![](image/AddCustomMap/1702213322990.png =550x)
 
-由于上述路径的文件夹没有默认创建，所以需要您手动创建`Maps`文件夹
+在游戏根目录下创建一个`Maps`文件夹
 
 ---
 
