@@ -170,7 +170,7 @@ guideHome: /FAQ
 |  合作地图  |                                           需要多位指挥官一起游玩的合作任务                                           |
 |  特殊模式  |                                                  拥有特殊机制的地图                                                  |
 | 锦标赛模式 |                         将绝大多数遭遇战选项固定，指挥官们将在固定的PVP设定和比赛地图下对决                          |
-| 自定义地图 |                                          玩家可以将导入外部地图在此模式使用                                          |
+| 自定义地图 |                                  玩家可以[导入外部地图](AddCustomMap)在此模式下使用                                  |
 
 ---
 
@@ -212,6 +212,7 @@ guideHome: /FAQ
 
 ---
 
+<GuideButton to="/FAQ/QuickStart/AddCustomMap">下一页：如何添加自定义地图</GuideButton>
 <GuideButton to="/FAQ/QuickStart/PlayMission">上一页：如何游玩战役</GuideButton>
 <GuideButton to="/FAQ/QuickStart/PlaySkirmish">上一页：如何进行遭遇战模式</GuideButton>
 <GuideButton to="/FAQ/QuickStart/PlayOnline">上一页：如何进行多人游戏</GuideButton>
