@@ -14,6 +14,7 @@ guideHome: /FAQ
 <GuideButton to="/FAQ/QuickStart/PlaySkirmish">如何进行遭遇战模式</GuideButton>
 <GuideButton to="/FAQ/QuickStart/PlayOnline">如何进行多人游戏</GuideButton>
 <GuideButton to="/FAQ/QuickStart/BattleSetting">遭遇战以及多人联机相关设置</GuideButton>
+<GuideButton to="/FAQ/QuickStart/AddCustomMap">如何添加自定义地图</GuideButton>
 
 <!-- ## 您可能遇到的问题
 
