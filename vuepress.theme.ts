@@ -73,7 +73,7 @@ export default hopeTheme(
       mdEnhance: {
         gfm: true,
         alert: true,
-        container: true,
+        hint: true,
         checkLinks: {
           status: 'always',
         },

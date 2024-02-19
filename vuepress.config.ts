@@ -1,3 +1,4 @@
+import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import ESDNGuide from './plugins/guide'
@@ -17,6 +18,8 @@ console.log(`Base is: ${base}`)
 
 export default defineUserConfig({
   base,
+
+  bundler: viteBundler(),
 
   head: [
     [

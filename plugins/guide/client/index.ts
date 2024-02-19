@@ -1,4 +1,4 @@
-import { defineClientConfig } from '@vuepress/client'
+import { defineClientConfig } from 'vuepress/client'
 import GuideButton from './components/GuideButton.vue'
 import GuideLayout from './layouts/GuideLayout.vue'
 

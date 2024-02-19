@@ -26,7 +26,7 @@
 </template>
 
 <script lang="ts" setup>
-import { Content, withBase, usePageFrontmatter } from '@vuepress/client'
+import { Content, withBase, usePageFrontmatter } from 'vuepress/client'
 import GuideButton from '../components/GuideButton.vue'
 import { useRouter } from 'vue-router'
 
