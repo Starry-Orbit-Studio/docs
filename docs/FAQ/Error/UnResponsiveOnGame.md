@@ -1,7 +1,6 @@
 ---
 title: Extreme Starry 疑难解答向导
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 一般由于防病毒软件误报，将游戏启动行为判定为木马病毒启动行为，对游戏启动行为进行了拦截，导致游戏进程无法正常启动。如下图某防病毒软件拦截日志所示：

@@ -1,7 +1,6 @@
 ---
 title: 如何添加自定义地图
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 > [!warning]

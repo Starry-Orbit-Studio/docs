@@ -1,7 +1,6 @@
 ---
 title: 星辰之光推荐设置
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 我们推荐的设置如下图所示：

@@ -1,7 +1,6 @@
 ---
 title: Extreme Starry 疑难解答向导
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 说明场上有最少一位玩家的电脑存在的CPU性能低下和其他玩家电脑的游戏性能差距过大或不恰当的游戏相关设置导致的游戏性能低下

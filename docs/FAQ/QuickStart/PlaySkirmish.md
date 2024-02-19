@@ -1,7 +1,6 @@
 ---
 title: 如何进行遭遇战
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 ![](image/PlaySkirmish/1701947678492.png =550x)

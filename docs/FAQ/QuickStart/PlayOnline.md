@@ -1,7 +1,6 @@
 ---
 title: 如何进行多人联机
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 ![](image/PlayOnline/1701952695047.png =550x)

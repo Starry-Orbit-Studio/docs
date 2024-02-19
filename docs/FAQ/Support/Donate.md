@@ -1,7 +1,6 @@
 ---
 title: Extreme Starry 疑难解答向导
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 非常感谢您对星辰之光的支持，您可以在[爱发电](https://afdian.net/a/ExtremeStarry)赞助星辰之光制作组，我们会将赞助全部用于Mod制作

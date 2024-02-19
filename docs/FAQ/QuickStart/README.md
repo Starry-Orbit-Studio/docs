@@ -1,7 +1,6 @@
 ---
 title: 快速入门
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 这是一份星辰之光快速入门指南，您可以根据此指南快速了解星辰之光并上手游玩

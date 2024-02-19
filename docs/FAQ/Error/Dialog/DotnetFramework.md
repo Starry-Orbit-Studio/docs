@@ -1,7 +1,6 @@
 ---
 title: Extreme Starry 疑难解答向导
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 ![](image/DotnetFramework/1701932003198.png)

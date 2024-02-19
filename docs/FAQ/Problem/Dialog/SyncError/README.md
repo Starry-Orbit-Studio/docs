@@ -1,7 +1,6 @@
 ---
 title: Extreme Starry 疑难解答向导
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 ![](image/README/1701936647860.png)

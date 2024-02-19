@@ -1,7 +1,6 @@
 ---
 title: Extreme Starry 疑难解答向导
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 如果您感觉本Mod的AI过于困难，您可以将设置AI难度为究极萌新，此难度的AI非常温柔，哪怕您是刚玩红警一分钟的萌新也难以在该难度下战败

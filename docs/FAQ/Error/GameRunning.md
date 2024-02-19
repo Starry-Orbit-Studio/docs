@@ -1,7 +1,6 @@
 ---
 title: Extreme Starry 疑难解答向导
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 如果打开客户端后点击开始游戏，客户端显示"游戏进行中"，但并没有弹出游戏窗口

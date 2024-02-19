@@ -1,7 +1,6 @@
 ---
 title: 下载以及安装星辰之光
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 ## 星辰之光安装需求

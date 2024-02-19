@@ -1,7 +1,6 @@
 ---
 title: 如何游玩战役
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 ![](image/PlayMission/1701946908460.png =550x)

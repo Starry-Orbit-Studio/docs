@@ -1,7 +1,6 @@
 ---
 title: Extreme Starry 疑难解答向导
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 由于发生闪退不会产生任何崩溃文件，我们无法为您解答此类疑惑

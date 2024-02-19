@@ -1,7 +1,6 @@
 ---
 title: Extreme Starry 疑难解答向导
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 究极萌新：专为萌新玩家设计，超长时间出兵一次，不会出高科技，不会使用支援/超级武器

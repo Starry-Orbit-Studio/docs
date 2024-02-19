@@ -1,7 +1,6 @@
 ---
 title: 遭遇战以及多人联机相关设置
 layout: GuideLayout
-guideHome: /FAQ
 ---
 
 本指南将介绍有关遭遇战和多人联机的对战配置以及功能
