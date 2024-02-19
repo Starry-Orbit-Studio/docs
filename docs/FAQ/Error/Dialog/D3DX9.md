@@ -1,6 +1,5 @@
 ---
 title: Extreme Starry 疑难解答向导
-layout: GuideLayout
 ---
 
 ![](image/D3DX9/1703677149245.png =300x)

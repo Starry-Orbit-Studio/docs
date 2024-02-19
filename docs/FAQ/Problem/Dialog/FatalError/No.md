@@ -1,6 +1,5 @@
 ---
 title: Extreme Starry 疑难解答向导
-layout: GuideLayout
 ---
 
 请将星辰之光升级（通过自动更新或者更新包解压覆盖游戏文件的方式）为最新版，然后重新开始游戏

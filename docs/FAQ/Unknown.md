@@ -1,6 +1,5 @@
 ---
 title: Extreme Starry 疑难解答向导
-layout: GuideLayout
 ---
 
 若您遇到了疑难解答中未列出的问题，请与制作组取得联系

@@ -1,6 +1,5 @@
 ---
 title: 如何进行多人联机
-layout: GuideLayout
 ---
 
 ![](image/PlayOnline/1701952695047.png =550x)
@@ -48,6 +47,6 @@ layout: GuideLayout
 
 如果您想了解房间内所有选项的功能和含义，请参见`下一页：遭遇战以及多人联机相关设置`
 
-<GuideButton to="/FAQ/QuickStart/BattleSetting">下一页：遭遇战以及多人联机相关设置</GuideButton>
-<GuideButton to="/FAQ/QuickStart/PlayMission">上一页：如何游玩战役</GuideButton>
-<GuideButton to="/FAQ/QuickStart/PlaySkirmish">上一页：如何进行遭遇战模式</GuideButton>
+<GuideButton to="/QuickStart/BattleSetting">下一页：遭遇战以及多人联机相关设置</GuideButton>
+<GuideButton to="/QuickStart/PlayMission">上一页：如何游玩战役</GuideButton>
+<GuideButton to="/QuickStart/PlaySkirmish">上一页：如何进行遭遇战模式</GuideButton>

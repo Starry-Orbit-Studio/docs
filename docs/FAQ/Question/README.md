@@ -1,6 +1,5 @@
 ---
 title: Extreme Starry 疑难解答向导
-layout: GuideLayout
 ---
 
 ## 您在游戏时遇到了什么问题？

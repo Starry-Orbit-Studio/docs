@@ -1,6 +1,5 @@
 ---
 title: Extreme Starry 疑难解答向导
-layout: GuideLayout
 ---
 
 ![](image/Miss/1701928278673.png)
@@ -10,4 +9,4 @@ layout: GuideLayout
 建议将这些被误杀的文件加入防病毒软件白名单，若游戏相关玩家文件全恢复成功，上述弹窗将消失
 
 若您无法恢复弹窗提示的已缺失文件
-请重新解压游戏程序，安装过程请参考[星辰之光快速入门](../../QuickStart/README.md)
+请重新解压游戏程序，安装过程请参考[星辰之光快速入门](/QuickStart/)

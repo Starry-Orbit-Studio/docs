@@ -1,6 +1,5 @@
 ---
 title: 遭遇战以及多人联机相关设置
-layout: GuideLayout
 ---
 
 本指南将介绍有关遭遇战和多人联机的对战配置以及功能
@@ -211,7 +210,7 @@ layout: GuideLayout
 
 ---
 
-<GuideButton to="/FAQ/QuickStart/AddCustomMap">下一页：如何添加自定义地图</GuideButton>
-<GuideButton to="/FAQ/QuickStart/PlayMission">上一页：如何游玩战役</GuideButton>
-<GuideButton to="/FAQ/QuickStart/PlaySkirmish">上一页：如何进行遭遇战模式</GuideButton>
-<GuideButton to="/FAQ/QuickStart/PlayOnline">上一页：如何进行多人游戏</GuideButton>
+<GuideButton to="/QuickStart/AddCustomMap">下一页：如何添加自定义地图</GuideButton>
+<GuideButton to="/QuickStart/PlayMission">上一页：如何游玩战役</GuideButton>
+<GuideButton to="/QuickStart/PlaySkirmish">上一页：如何进行遭遇战模式</GuideButton>
+<GuideButton to="/QuickStart/PlayOnline">上一页：如何进行多人游戏</GuideButton>

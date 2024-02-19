@@ -1,6 +1,5 @@
 ---
 title: 下载以及安装星辰之光
-layout: GuideLayout
 ---
 
 ## 星辰之光安装需求
@@ -41,4 +40,4 @@ layout: GuideLayout
 
 您可以参考`下一页：推荐配置`来快速完成客户端设置
 
-<GuideButton to="/FAQ/QuickStart/ESSetting">下一页：推荐设置</GuideButton>
+<GuideButton to="/QuickStart/ESSetting">下一页：推荐设置</GuideButton>

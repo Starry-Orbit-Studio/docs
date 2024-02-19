@@ -1,6 +1,5 @@
 ---
 title: Extreme Starry 疑难解答向导
-layout: GuideLayout
 ---
 
 目前已发布的任务包括2个训练关、2个盟军战役、1个苏联战役

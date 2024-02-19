@@ -1,6 +1,5 @@
 ---
 title: 如何进行遭遇战
-layout: GuideLayout
 ---
 
 ![](image/PlaySkirmish/1701947678492.png =550x)
@@ -32,6 +31,6 @@ layout: GuideLayout
 
 当您配置好了AI玩家，选择好了地图，配置好了相关的地图和游戏属性后，点击右下角的`开始游戏`按钮即可开始游戏
 
-<GuideButton to="/FAQ/QuickStart/PlayOnline">下一页：如何进行多人游戏</GuideButton>
-<GuideButton to="/FAQ/QuickStart/BattleSetting">下一页：遭遇战以及多人联机相关设置</GuideButton>
-<GuideButton to="/FAQ/QuickStart/PlayMission">上一页：如何游玩战役</GuideButton>
+<GuideButton to="/QuickStart/PlayOnline">下一页：如何进行多人游戏</GuideButton>
+<GuideButton to="/QuickStart/BattleSetting">下一页：遭遇战以及多人联机相关设置</GuideButton>
+<GuideButton to="/QuickStart/PlayMission">上一页：如何游玩战役</GuideButton>

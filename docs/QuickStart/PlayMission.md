@@ -1,6 +1,5 @@
 ---
 title: 如何游玩战役
-layout: GuideLayout
 ---
 
 ![](image/PlayMission/1701946908460.png =550x)
@@ -17,6 +16,6 @@ layout: GuideLayout
 
 选择关卡以及合适的难度后，即可点击右下角的`启动`按钮，即可进入战役游玩
 
-<GuideButton to="/FAQ/QuickStart/PlaySkirmish">下一页：如何进行遭遇战模式</GuideButton>
-<GuideButton to="/FAQ/QuickStart/PlayOnline">下一页：如何进行多人游戏</GuideButton>
-<GuideButton to="/FAQ/QuickStart/ESSetting">上一页：推荐设置</GuideButton>
+<GuideButton to="/QuickStart/PlaySkirmish">下一页：如何进行遭遇战模式</GuideButton>
+<GuideButton to="/QuickStart/PlayOnline">下一页：如何进行多人游戏</GuideButton>
+<GuideButton to="/QuickStart/ESSetting">上一页：推荐设置</GuideButton>

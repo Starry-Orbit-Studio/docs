@@ -1,6 +1,5 @@
 ---
 title: 星辰之光推荐设置
-layout: GuideLayout
 ---
 
 我们推荐的设置如下图所示：
@@ -30,7 +29,7 @@ layout: GuideLayout
 
 您可以参见下一页了解更多游戏模式的玩法
 
-<GuideButton to="/FAQ/QuickStart/PlayMission">下一页：如何游玩战役</GuideButton>
-<GuideButton to="/FAQ/QuickStart/PlaySkirmish">下一页：如何进行遭遇战模式</GuideButton>
-<GuideButton to="/FAQ/QuickStart/PlayOnline">下一页：如何进行多人游戏</GuideButton>
-<GuideButton to="/FAQ/QuickStart/DownloadES">上一页：下载并安装星辰之光</GuideButton>
+<GuideButton to="/QuickStart/PlayMission">下一页：如何游玩战役</GuideButton>
+<GuideButton to="/QuickStart/PlaySkirmish">下一页：如何进行遭遇战模式</GuideButton>
+<GuideButton to="/QuickStart/PlayOnline">下一页：如何进行多人游戏</GuideButton>
+<GuideButton to="/QuickStart/DownloadES">上一页：下载并安装星辰之光</GuideButton>

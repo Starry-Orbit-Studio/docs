@@ -1,6 +1,5 @@
 ---
 title: Extreme Starry 疑难解答向导
-layout: GuideLayout
 ---
 
 尽可能确定事发原因，您可以根据根据你在对局中的所见所闻合理的推测或者尝试复现导致游戏崩溃的原因

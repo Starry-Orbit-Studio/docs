@@ -1,6 +1,5 @@
 ---
 title: Extreme Starry 疑难解答向导
-layout: GuideLayout
 ---
 
 ![](../SyncError/image/OnGaming/1701936709882.png =350x)

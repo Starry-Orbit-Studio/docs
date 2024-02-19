@@ -1,6 +1,5 @@
 ---
 title: 如何添加自定义地图
-layout: GuideLayout
 ---
 
 > [!warning]
@@ -28,4 +27,4 @@ layout: GuideLayout
 进入星辰之光客户端后，您便可以在**遭遇战模式**以及**多人联机模式**房间下的`自定义地图`模式地图列表中看到您添加的地图了
 （自定义地图统一在地图列表最底处显示）
 
-<GuideButton to="/FAQ/QuickStart/BattleSetting">上一页：遭遇战以及多人联机相关设置</GuideButton>
+<GuideButton to="/QuickStart/BattleSetting">上一页：遭遇战以及多人联机相关设置</GuideButton>

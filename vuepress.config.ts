@@ -58,6 +58,8 @@ export default defineUserConfig({
       // 索引全部内容
       indexContent: true,
     }),
-    ESDNGuide(),
+    ESDNGuide({
+      includes: ['/FAQ/', '/QuickStart/'],
+    }),
   ],
 })

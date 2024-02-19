@@ -1,6 +1,5 @@
 ---
 title: Extreme Starry 疑难解答向导
-layout: GuideLayout
 ---
 
 说明联机过程中，最少有一位玩家的网络条件不佳

@@ -1,6 +1,5 @@
 ---
 title: Extreme Starry 疑难解答向导
-layout: GuideLayout
 ---
 
 红色警戒2为20余年前开发的老旧游戏，游戏架构陈旧且难以维护
