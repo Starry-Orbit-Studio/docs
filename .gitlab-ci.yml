@@ -12,7 +12,7 @@ pages:
       files:
         - yarn.lock
     paths:
-      - .yarn\cache
+      - node_modules
 
   # 安装依赖并运行构建脚本
   script:
