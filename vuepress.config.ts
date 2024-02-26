@@ -7,7 +7,6 @@ import theme from './vuepress.theme'
 const base = (() => {
   const pagePath: Record<string, '/' | `/${string}/`> = {
     default: '/',
-    github: '/docs/',
     gitlab: '/extreme-starry/document/esdn/',
   }
 
