@@ -2,6 +2,47 @@ import { hopeTheme } from 'vuepress-theme-hope'
 import * as navbar from './navbar'
 import * as sidebar from './sidebar'
 
+const author = {
+  zh: {
+    name: '星轨工作室',
+    url: 'https://gitlab.com/starry-orbit-studio',
+  },
+  en: {
+    name: 'Starry Orbit Studio',
+    url: 'https://gitlab.com/starry-orbit-studio',
+  },
+}
+
+const cc = 'by-nc-sa/4.0'
+
+const license = {
+  zh: {
+    type: '知识共享许可协议',
+    name: '知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议',
+    description: `本作品采用<a rel="license" href="http://creativecommons.org/licenses/${cc}/">{license}</a>进行许可。`,
+  },
+  en: {
+    type: 'Creative Commons License',
+    name: 'Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License',
+    description: `This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/${cc}/">{license}</a>.`,
+  },
+}
+
+// prettier-ignore
+const copyright = (locale: keyof typeof license) => {
+  const year = new Date().getFullYear()
+  let builder = ''
+  builder += `<a rel="license" href="http://creativecommons.org/licenses/${cc}/"><img alt="${license[locale].name}" style="border-width:0" src="https://licensebuttons.net/l/${cc}/80x15.png" /></a>`
+  builder += '<br />'
+  builder += '<a normal href="https://beian.miit.gov.cn/" target="_blank">京ICP备2022016928号-2</a>'
+  builder += ' | '
+  builder += `Copyright © ${year} <a normal rel="author" href="${author[locale].url}">${author[locale].name}</a>`
+  builder += '<br />'
+  builder += license[locale].description.replace('{license}', license[locale].name)
+
+  return builder
+}
+
 export default hopeTheme(
   {
     hostname: 'https://demo.github.io',
@@ -26,18 +67,13 @@ export default hopeTheme(
         // navbar
         navbar: navbar.zh,
 
-        author: {
-          name: '星轨工作室',
-          url: 'https://gitlab.com/starry-orbit-studio',
-        },
+        author: author.zh,
 
         // sidebar
         sidebar: sidebar.zh,
 
-        footer:
-          '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。',
-
         displayFooter: true,
+        copyright: copyright('zh'),
 
         // page meta
         metaLocales: {
@@ -49,18 +85,13 @@ export default hopeTheme(
         // navbar
         navbar: navbar.en,
 
-        author: {
-          name: 'Starry Orbit Studio',
-          url: 'https://gitlab.com/starry-orbit-studio',
-        },
+        author: author.en,
 
         // sidebar
         sidebar: sidebar.en,
 
-        footer:
-          '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.',
-
         displayFooter: true,
+        copyright: copyright('en'),
 
         metaLocales: {
           editLink: 'Edit this page on GitLab',
