@@ -7,12 +7,14 @@ title: 快速入门
 推荐按照从上往下的顺序阅览
 
 <GuideButton to="/QuickStart/DownloadES">下载并安装星辰之光</GuideButton>
-<GuideButton to="/QuickStart/ESSetting">推荐设置</GuideButton>
+<GuideButton to="/QuickStart/UpdateES">更新星辰之光</GuideButton>
+<GuideButton to="/QuickStart/ESSetting">客户端推荐设置</GuideButton>
 <GuideButton to="/QuickStart/PlayMission">如何游玩战役</GuideButton>
 <GuideButton to="/QuickStart/PlaySkirmish">如何进行遭遇战模式</GuideButton>
 <GuideButton to="/QuickStart/PlayOnline">如何进行多人游戏</GuideButton>
 <GuideButton to="/QuickStart/BattleSetting">遭遇战以及多人联机相关设置</GuideButton>
 <GuideButton to="/QuickStart/AddCustomMap">如何添加自定义地图</GuideButton>
+<GuideButton to="/FAQ/README.md">返回疑难解答首页</GuideButton>
 
 <!-- ## 您可能遇到的问题
 

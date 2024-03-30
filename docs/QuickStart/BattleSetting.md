@@ -6,7 +6,7 @@ title: 遭遇战以及多人联机相关设置
 
 ---
 
-![](image/PlaySkirmish/1701947880486.png =650x)
+![](image/PlaySkirmish/1701947880486.png =750x)
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 星辰之光推荐设置
+title: 客户端推荐设置
 ---
 
 我们推荐的设置如下图所示：
@@ -23,9 +23,9 @@ title: 星辰之光推荐设置
 用户名建议推荐全英文且不要超过20个字符
 
 设置完成后，您便可以开始体验星辰之光的游戏内容了，星辰之光有以下三种游戏模式
-`战役`
-`遭遇战模式`
-`多人联机模式`
+[`战役`](./PlayMission.md)
+[`遭遇战模式`](./PlaySkirmish.md)
+[`多人联机模式`](./PlayOnline.md)
 
 您可以参见下一页了解更多游戏模式的玩法
 
@@ -33,3 +33,4 @@ title: 星辰之光推荐设置
 <GuideButton to="/QuickStart/PlaySkirmish">下一页：如何进行遭遇战模式</GuideButton>
 <GuideButton to="/QuickStart/PlayOnline">下一页：如何进行多人游戏</GuideButton>
 <GuideButton to="/QuickStart/DownloadES">上一页：下载并安装星辰之光</GuideButton>
+<GuideButton to="/QuickStart/UpdateES">上一页：更新星辰之光</GuideButton>
