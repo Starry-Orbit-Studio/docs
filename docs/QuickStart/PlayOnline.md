@@ -2,11 +2,11 @@
 title: 如何进行多人联机
 ---
 
-![](image/PlayOnline/1701952695047.png =550x)
+![](image/PlayOnline/1711772336328.png =650x)
 
 如上图红框所示，点击客户端主菜单的`链接到CnCNet`按钮，即可进入多人联机大厅
 
-![](image/PlayOnline/1701952753236.png =550x)
+![](image/PlayOnline/1711772407435.png =650x)
 
 在联机大厅中
 左侧是房间列表，会列出当前所有在线的房间
@@ -32,11 +32,11 @@ title: 如何进行多人联机
 
 ![](image/PlayOnline/1701953390851.png)
 
-我们建议选择**延迟较低**或**服务器名带有`[CN]`字样**的服务器，这将保证良好的联机体验，具体原因请参阅[联机游玩时游戏卡顿](../Problem/Slow/Online/Network)
+我们建议选择**延迟较低**或**服务器名带有`[CN]`字样**的服务器，这将保证良好的联机体验，具体原因请参阅[联机游玩时游戏卡顿](../FAQ/PlayingES/Slow/Online/Network.md)
 
 ---
 
-![](image/PlayOnline/1701953742148.png =550x)
+![](image/PlayOnline/1711772464667.png =650x)
 
 当您进入其他玩家的房间后，您只能选择您自己用户名所在那行位置的下拉框的内容
 其他的所有选项只能由其他玩家或者房主进行控制，完成您的选择后
@@ -45,7 +45,7 @@ title: 如何进行多人联机
 
 当房间内所有玩家都进入准备状态后，房主即可开始游戏
 
-如果您想了解房间内所有选项的功能和含义，请参见`下一页：遭遇战以及多人联机相关设置`
+如果您想了解房间内所有选项的功能和含义，请参见[`下一页：遭遇战以及多人联机相关设置`](./BattleSetting.md)
 
 <GuideButton to="/QuickStart/BattleSetting">下一页：遭遇战以及多人联机相关设置</GuideButton>
 <GuideButton to="/QuickStart/PlayMission">上一页：如何游玩战役</GuideButton>

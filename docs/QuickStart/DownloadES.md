@@ -8,7 +8,7 @@ title: 下载以及安装星辰之光
 
 .NET Framework 4.5.2 或更新版本 (Windows 7 需要手动下载并安装此运行时)
 若您还不清楚您的电脑是否安装了 .NET Framework 4.5.2
-请参阅[.NET Framework安装教程](../Error/Dialog/DotnetFramework)
+请参阅[.NET Framework安装教程](../FAQ/LaunchingESClient/Dialog/DotnetFramework.md)
 
 最低配置
 
@@ -20,9 +20,9 @@ title: 下载以及安装星辰之光
 
 ## 下载以及安装流程
 
-首先，您需要下载星辰之光的游戏资源压缩包，压缩包资源可在[星辰之光玩家群](/FAQ/Support/README.md)的群文件中找到并下载，如下图所示：
+首先，您需要下载星辰之光的游戏资源压缩包，压缩包资源可在[星辰之光玩家群](/FAQ/Support/README.md)的群文件中找到并下载，文件名格式为：`Extreme Starry v0.X.rar`,如下图所示：
 
-![](image/README/1701685209608.png =650x)
+![](image/DownloadES/1711769959111.png =650x)
 
 压缩包下载完成后，使用任意压缩包解压软件将压缩包解压至您希望的目录下
 
@@ -38,6 +38,9 @@ title: 下载以及安装星辰之光
 
 在上图窗口中点击`是`按钮，即可进入`设置`页面，调整客户端或者游戏相关设置
 
-您可以参考`下一页：推荐配置`来快速完成客户端设置
+若客户端提示您需要更新，您可以参考[`下一页：更新星辰之光`](./ESSetting.md)来完成更新流程
 
-<GuideButton to="/QuickStart/ESSetting">下一页：推荐设置</GuideButton>
+若您已经更新完毕，或无需更新，您还可以参考[`下一页：客户端推荐设置`](./ESSetting.md)来快速完成客户端设置
+
+<GuideButton to="/QuickStart/UpdateES">下一页：更新星辰之光</GuideButton>
+<GuideButton to="/QuickStart/ESSetting">下一页：客户端推荐设置</GuideButton>
