@@ -10,7 +10,6 @@ title: Extreme Starry 疑难解答向导
 
 > [!warning]
 > 以下操作将关闭客户端的中文输入法支持功能，建议仅在clientdx无法工作且clientogl点击输入框引起游戏客户端崩溃时才使用上述方法
-> :::
 
 :::left
 
