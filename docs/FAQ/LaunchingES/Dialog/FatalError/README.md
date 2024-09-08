@@ -2,9 +2,14 @@
 title: Extreme Starry 疑难解答向导
 ---
 
-![](../SyncError/image/OnGaming/1701936709882.png =350x)
+<!-- ![](image/README/1725793034018.png) -->
 
-※请点击[确定]
+![](image/Yes/1725793923900.png)
+
+※ 请点击`是`按钮
+
+请将弹窗中的**错误码**（如有）完整记录下来汇报制作组
+
 您当前版本号是否为最新版（最新版本号请参阅[changelog](https://es.ra2modol.com/ChangeLog/)）
 
 <GuideButton to="/FAQ/LaunchingES/Dialog/FatalError/Yes">是</GuideButton>
