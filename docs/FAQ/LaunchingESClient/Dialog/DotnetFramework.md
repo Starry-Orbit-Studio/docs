@@ -2,7 +2,7 @@
 title: Extreme Starry 疑难解答向导
 ---
 
-![](image/DotnetFramework/1701932003198.png)
+![](image/DotnetFramework/1701932003198.webp)
 
 您还没有安装`.NET framework 4.5.2`以上版本
 [点击此处](https://download.visualstudio.microsoft.com/download/pr/2d6bb6b2-226a-4baa-bdec-798822606ff1/8494001c276a4b96804cde7829c04d7f/ndp48-x86-x64-allos-enu.exe)下载并安装`.NET framework 4.8`
@@ -15,8 +15,8 @@ title: Extreme Starry 疑难解答向导
 
 windows 7 用户可能在安装`.NET framework 4.8`时会遇到如下错误：
 
-![](image/DotnetFramework/1701955211732.png =350x)
-![](image/DotnetFramework/1701932585020.png =350x)
+![](image/DotnetFramework/1701955211732.webp =350x)
+![](image/DotnetFramework/1701932585020.webp =350x)
 
 这个问题是您的 windows 7 系统尚未安装 KB3004394 和 KB2718704 安全补丁导致的
 

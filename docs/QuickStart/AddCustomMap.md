@@ -10,19 +10,19 @@ title: 如何添加自定义地图
 
 ---
 
-![](image/AddCustomMap/1702213322990.png =550x)
+![](image/AddCustomMap/1702213322990.webp =550x)
 
 在游戏根目录下创建一个`Maps`文件夹
 
 ---
 
-![](image/AddCustomMap/1702213743165.png =550x)
+![](image/AddCustomMap/1702213743165.webp =550x)
 
 `Maps`文件夹创建完毕后，将`.map`格式的地图文件放入此文件夹即可
 
 ---
 
-![](image/AddCustomMap/1702213717151.png =750x)
+![](image/AddCustomMap/1702213717151.webp =750x)
 
 进入星辰之光客户端后，您便可以在**遭遇战模式**以及**多人联机模式**房间下的`自定义地图`模式地图列表中看到您添加的地图了
 （自定义地图统一在地图列表最底处显示）

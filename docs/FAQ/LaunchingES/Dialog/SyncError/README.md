@@ -2,7 +2,7 @@
 title: Extreme Starry 疑难解答向导
 ---
 
-![](image/README/1701936647860.png)
+![](image/README/1701936647860.webp)
 
 此时请点击`是`
 并与至少一名您当前场次游玩的玩家取得联系

@@ -4,7 +4,7 @@ title: Extreme Starry 疑难解答向导
 
 如果打开客户端后点击开始游戏，客户端显示"游戏进行中"，但并没有弹出游戏窗口
 
-![](image/GameRunning/1701930790032.png)
+![](image/GameRunning/1701930790032.webp)
 
 那么请使用任务管理器检查并结束游戏进程，再尝试重新启动游戏
 
@@ -16,7 +16,7 @@ title: Extreme Starry 疑难解答向导
 
 1. 进入详细信息页面并搜索“gamemd.exe”、“Decoder.exe”字样的程序，如下图所示：
 
-   ![](image/GameRunning/1701930711777.png =450x)
+   ![](image/GameRunning/1701930711777.webp =450x)
 
 1. 单击右键选择结束任务，再重新点击开始游戏
 

@@ -2,9 +2,9 @@
 title: Extreme Starry 疑难解答向导
 ---
 
-<!-- ![](image/README/1725793034018.png) -->
+<!-- ![](image/README/1725793034018.webp) -->
 
-![](image/Yes/1725793923900.png)
+![](image/Yes/1725793923900.webp)
 
 ※ 请点击`是`按钮
 
@@ -19,4 +19,4 @@ title: Extreme Starry 疑难解答向导
 
 版本号标识在游戏客户端主界面的左下角位置，例如：`v0.5.4`
 
-![](image/README/1701934137403.png =650x)
+![](image/README/1701934137403.webp =650x)
