@@ -41,22 +41,6 @@ const bg = withBase('/background.webp')
 
 <style lang="scss">
 .guide-layout-panel {
-  * {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-  }
-  em {
-    font-family: 'Times New Roman', Times, serif;
-    margin-right: 0.25rem;
-  }
-
-  [data-theme='light'] & {
-    color: #213547;
-  }
-  [data-theme='dark'] & {
-    color: #ffffffde;
-  }
-
   width: 100%;
   min-height: 100vh;
   margin: 0;
@@ -88,6 +72,22 @@ const bg = withBase('/background.webp')
     [data-theme='dark'] & {
       background-color: #00000080;
     }
+  }
+
+  * {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  em {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 0.25rem;
+  }
+
+  [data-theme='light'] & {
+    color: #213547;
+  }
+  [data-theme='dark'] & {
+    color: #ffffffde;
   }
 
   .guide-layout {
