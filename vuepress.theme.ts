@@ -5,11 +5,11 @@ import * as sidebar from './sidebar'
 const author = {
   zh: {
     name: '星轨工作室',
-    url: 'https://gitlab.com/starry-orbit-studio',
+    url: 'https://github.com/Starry-Orbit-Studio',
   },
   en: {
     name: 'Starry Orbit Studio',
-    url: 'https://gitlab.com/starry-orbit-studio',
+    url: 'https://github.com/Starry-Orbit-Studio',
   },
 }
 
@@ -45,19 +45,26 @@ const copyright = (locale: keyof typeof license) => {
 
 export default hopeTheme(
   {
-    hostname: 'https://demo.github.io',
+    hostname: 'https://es.ra2modol.com',
 
-    iconAssets: 'fontawesome-with-brands',
+    logo: '/logo.webp',
 
-    logo: '/logo.png',
+    repo: 'Starry-Orbit-Studio/docs',
 
-    repo: 'https://gitlab.com/starry-orbit-studio/extreme-starry/esdn',
-
-    docsRepo: 'https://gitlab.com/starry-orbit-studio/extreme-starry/esdn',
+    docsDir: 'docs',
 
     docsBranch: 'master',
 
-    docsDir: 'docs',
+    pageInfo: [
+      'Author',
+      'Date',
+      'Original',
+      'Category',
+      'PageView',
+      'ReadingTime',
+      'Tag',
+      'Word',
+    ],
 
     locales: {
       /**
@@ -77,7 +84,7 @@ export default hopeTheme(
 
         // page meta
         metaLocales: {
-          editLink: '在 GitLab 上编辑此页',
+          editLink: '在 GitHub 上编辑此页',
         },
       },
 
@@ -99,108 +106,104 @@ export default hopeTheme(
       },
     },
 
-    plugins: {
-      // All features are enabled for demo, only preserve features you need here
-      mdEnhance: {
-        gfm: true,
-        alert: true,
-        hint: true,
-        checkLinks: {
-          status: 'always',
+    markdown: {
+      gfm: true,
+      hint: true,
+      alert: true,
+      align: true,
+      attrs: true,
+      sup: true,
+      sub: true,
+      footnote: true,
+      mark: true,
+      tasklist: true,
+      component: true,
+      mermaid: true,
+      spoiler: true,
+      breaks: true,
+      tabs: true,
+      codeTabs: true,
+      figure: true,
+      highlighter: {
+        type: 'shiki',
+        lineNumbers: true,
+        removeLastLine: true,
+        preWrapper: true,
+        collapsedLines: true,
+        themes: {
+          light: 'light-plus',
+          dark: 'dark-plus',
         },
-        tabs: true,
-        codetabs: true,
-        align: true,
-        attrs: true,
-        sup: true,
-        sub: true,
-        footnote: true,
-        mark: true,
-        figure: true,
-        imgLazyload: true,
-        imgMark: true,
-        imgSize: true,
-        obsidianImgSize: true,
-        tasklist: true,
-        component: true,
-        chart: false,
-        echarts: false,
-        mermaid: true,
-        revealJs: false,
-        delay: 200,
+        notationDiff: true,
+        notationFocus: true,
+        notationHighlight: true,
+        notationErrorLevel: true,
+        notationWordHighlight: true,
+        whitespace: true,
       },
+      imgLazyload: true,
+      imgMark: true,
+      imgSize: true,
+      obsidianImgSize: true,
+      include: true,
+      linkify: true,
+      linksCheck: true,
+    },
+
+    plugins: {
+      icon: {
+        assets: 'iconify',
+        prefix: 'fa6-solid:',
+      },
+
+      git: {
+        createdTime: true,
+        updatedTime: true,
+        contributors: true,
+        transformContributors: contributors =>
+          Object.values(
+            contributors.reduce(
+              (a, b) => {
+                a[b.email] = b
+                return a
+              },
+              {} as Record<string, (typeof contributors)[0]>,
+            ),
+          ),
+      },
+
+      copyright: {
+        global: true,
+        license: 'CC-BY-NC-SA 4.0',
+      },
+
+      feed: {
+        atom: true,
+        json: true,
+        rss: true,
+      },
+
       components: {
         components: [
           // 'ArtPlayer',
           'Badge',
           'BiliBili',
           // 'CodePen',
-          'FontIcon',
+
           'PDF',
-          // 'Replit',
           'Share',
           // 'StackBlitz',
           'SiteInfo',
+          'VPBanner',
+          'VPCard',
           // 'VidStack',
           // 'XiGua',
         ],
       },
-      // uncomment these if you want a pwa
-      // pwa: {
-      //   favicon: "/favicon.ico",
-      //   cacheHTML: true,
-      //   cachePic: true,
-      //   appendBase: true,
-      //   apple: {
-      //     icon: "/assets/icon/apple-icon-152.png",
-      //     statusBarColor: "black",
-      //   },
-      //   msTile: {
-      //     image: "/assets/icon/ms-icon-144.png",
-      //     color: "#ffffff",
-      //   },
-      //   manifest: {
-      //     icons: [
-      //       {
-      //         src: "/assets/icon/chrome-mask-512.png",
-      //         sizes: "512x512",
-      //         purpose: "maskable",
-      //         type: "image/png",
-      //       },
-      //       {
-      //         src: "/assets/icon/chrome-mask-192.png",
-      //         sizes: "192x192",
-      //         purpose: "maskable",
-      //         type: "image/png",
-      //       },
-      //       {
-      //         src: "/assets/icon/chrome-512.png",
-      //         sizes: "512x512",
-      //         type: "image/png",
-      //       },
-      //       {
-      //         src: "/assets/icon/chrome-192.png",
-      //         sizes: "192x192",
-      //         type: "image/png",
-      //       },
-      //     ],
-      //     shortcuts: [
-      //       {
-      //         name: "Demo",
-      //         short_name: "Demo",
-      //         url: "/demo/",
-      //         icons: [
-      //           {
-      //             src: "/assets/icon/guide-maskable.png",
-      //             sizes: "192x192",
-      //             purpose: "maskable",
-      //             type: "image/png",
-      //           },
-      //         ],
-      //       },
-      //     ],
-      //   },
-      // },
+
+      sitemap: {
+        changefreq: 'weekly',
+      },
     },
   },
   { custom: true },

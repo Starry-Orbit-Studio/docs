@@ -5,7 +5,7 @@
         <a :href="withBase('/')" target="_blank">
           <figure>
             <img
-              :src="withBase('logo.png')"
+              :src="withBase('logo.webp')"
               alt="Extreme Starry Logo"
               class="logo" />
             <figcaption class="read-the-docs">
@@ -26,9 +26,9 @@
 </template>
 
 <script lang="ts" setup>
-import { Content, withBase, usePageFrontmatter } from 'vuepress/client'
-import GuideButton from '../components/GuideButton.vue'
 import { useRouter } from 'vue-router'
+import { Content, usePageFrontmatter, withBase } from 'vuepress/client'
+import GuideButton from '../components/GuideButton.vue'
 
 const frontmatter = usePageFrontmatter<{
   title: string
@@ -36,7 +36,7 @@ const frontmatter = usePageFrontmatter<{
 }>()
 const router = useRouter()
 const goback = () => router.back()
-const bg = withBase('/background.png')
+const bg = withBase('/background.webp')
 </script>
 
 <style lang="scss">

@@ -11,6 +11,7 @@ icon: book
 所以，若您想要为文档网络做出贡献，您需要对 Markdown 格式有所了解。
 
 [^VuePress]: [VuePress v2](https://v2.vuepress.vuejs.org/zh/)
+
 [^Theme]: [VuePress Theme Hope](https://theme-hope.vuejs.press/zh/)
 
 ## 贡献前准备
@@ -27,7 +28,9 @@ icon: book
   所以您可以选择其他的编辑器而不是这个编辑器来编辑文档。
 
 [^git]: Git 是一个分布式的版本控制软件。
+
 [^node]: Node.js® 是一个基于 Chromium V8 引擎的 JavaScript 运行时环境。
+
 [^vsc]: Visual Studio Code® 是一款由微软开发的跨平台的免费的编辑器。
 
 ## Markdown

@@ -2,33 +2,17 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import ESDNGuide from './plugins/guide'
+import head from './vuepress.head'
 import theme from './vuepress.theme'
 
-const base = (() => {
-  const pagePath: Record<string, '/' | `/${string}/`> = {
-    default: '/',
-    gitlab: '/extreme-starry/document/esdn/',
-  }
-
-  return pagePath[process.argv[4]] ?? pagePath.default
-})()
-
-console.log(`Base is: ${base}`)
-
 export default defineUserConfig({
-  base,
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+  }),
 
-  bundler: viteBundler(),
-
-  head: [
-    [
-      'link',
-      {
-        rel: 'icon',
-        href: '/logo.png',
-      },
-    ],
-  ],
+  base: '/',
+  head,
 
   locales: {
     '/': {
@@ -43,12 +27,13 @@ export default defineUserConfig({
     },
   },
 
-  theme,
-
   temp: '.temp',
   cache: '.cache',
   public: 'public',
   dest: 'dist',
+
+  theme,
+
   // Enable it with pwa
   // shouldPrefetch: false,
 

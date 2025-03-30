@@ -1,5 +1,5 @@
-import type { PluginFunction } from '@vuepress/core'
-import { path } from '@vuepress/utils'
+import type { PluginFunction } from 'vuepress/core'
+import { path } from 'vuepress/utils'
 
 const plugin =
   (options: { includes: Array<`/${string}/`> }): PluginFunction =>

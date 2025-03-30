@@ -3,30 +3,49 @@
   "type": "module",
   "description": "Extreme Starry 文档站",
   "license": "CC-BY-NC-SA 4.0",
-  "packageManager": "yarn@4.0.2",
+  "packageManager": "pnpm@10.7.0+sha256.35cab26953bf90847e798839db58c9a2a82d526b7af179fd2a103c18242cadc6",
   "scripts": {
     "build": "vuepress build docs",
     "clean-dev": "vuepress dev docs --clean-cache",
     "dev": "vuepress dev docs",
-    "format": "prettier --write --config prettier.config.yaml .",
+    "format": "prettier --write .",
     "postinstall": "husky install",
-    "postpack": "pinst --enable",
-    "prepack": "pinst --disable",
-    "preview": "yarn dlx live-server --no-browser --mount=/docs/:dist/",
-    "update-package": "yarn dlx vp-update"
+    "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.7",
-    "husky": "^9.0.11",
-    "mermaid": "^10.8.0",
-    "pinst": "^3.0.0",
-    "prettier": "^3.2.5",
+    "@vuepress/bundler-vite": "2.0.0-rc.20",
+    "@vuepress/plugin-feed": "2.0.0-rc.90",
+    "htmlparser2": "^10.0.0",
+    "husky": "^9.1.7",
+    "mermaid": "^10.9.3",
+    "prettier": "^3.5.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
     "prettier-plugin-pkg": "^0.18.1",
-    "typescript": "^5.3.3",
-    "vue": "^3.4.19",
-    "vue-router": "^4.2.5",
-    "vuepress": "2.0.0-rc.7",
-    "vuepress-plugin-search-pro": "^2.0.0-rc.24",
-    "vuepress-theme-hope": "^2.0.0-rc.24"
+    "sass-embedded": "^1.86.0",
+    "typescript": "^5.8.2",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "vue-tsc": "^2.2.8",
+    "vuepress": "2.0.0-rc.20",
+    "vuepress-plugin-search-pro": "2.0.0-rc.59",
+    "vuepress-theme-hope": "2.0.0-rc.77"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": false,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "bracketSameLine": true,
+    "arrowParens": "avoid",
+    "endOfLine": "auto",
+    "plugins": [
+      "prettier-plugin-organize-imports",
+      "prettier-plugin-pkg"
+    ]
   }
 }
