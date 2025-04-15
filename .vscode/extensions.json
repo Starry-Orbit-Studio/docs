@@ -2,6 +2,7 @@
   "recommendations": [
     "redhat.vscode-yaml",
     "esbenp.prettier-vscode",
-    "editorconfig.editorconfig"
+    "editorconfig.editorconfig",
+    "bierner.github-markdown-preview"
   ]
 }
