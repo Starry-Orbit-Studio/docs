@@ -2,7 +2,7 @@
 title: Extreme Starry 疑难解答向导
 ---
 
-![](image/OnGaming/1701936709882.webp =350x)
+![|350x0](image/OnGaming/1701936709882.webp)
 
 请收集联机对战中**所有玩家（至少2名玩家）**的崩溃文件，因为分析`联机同步错误`需要对比分析不同玩家的日志之间的不同点，只有一个玩家的日志无法进行对比
 
@@ -21,13 +21,13 @@ title: Extreme Starry 疑难解答向导
 `SYNC-1007-20231207-1609[Player0].TXT`
 `SYNC-1007-20231207-1609[Player1].TXT`
 
-![](image/OnGaming/1701937534505.webp =650x)
-![](image/OnGaming/1701937558489.webp =650x)
+![|650x0](image/OnGaming/1701937534505.webp)
+![|650x0](image/OnGaming/1701937558489.webp)
 
 在打包所有人的`RE`崩溃文件之前，请您确保您收集的崩溃文件都是来着同一对局的同一时间点生成的崩溃文件
 
-![](image/OnGaming/1701937840618.webp =650x)
-![](image/OnGaming/1701937823247.webp =650x)
+![|650x0](image/OnGaming/1701937840618.webp)
+![|650x0](image/OnGaming/1701937823247.webp)
 
 请向同一对局的其他玩家询问同一战局的`RE`崩溃文件，汇总过后，将起所有崩溃文件打包成一个压缩包后
 即可提供给制作组

@@ -17,15 +17,15 @@ title: Extreme Starry 疑难解答向导
 
 1. 在游戏安装目录下，找到并进入Resources文件夹
 
-   ![](image/SDL/1701924119874.webp =450x)
+   ![|450x0](image/SDL/1701924119874.webp)
 
 1. 用文本编辑器（例如记事本）打开`ClientDefinitions.ini`
 
-   ![](image/SDL/1701924211967.webp =450x)
+   ![|450x0](image/SDL/1701924211967.webp)
 
 1. 在`[Settings]`行下新建一行，添加：`DisableIME=true`
 
-   ![](image/SDL/1701924285839.webp =450x)
+   ![|450x0](image/SDL/1701924285839.webp)
 
 1. 保存文件即可
 

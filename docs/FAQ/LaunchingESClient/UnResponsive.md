@@ -18,7 +18,7 @@ title: Extreme Starry 疑难解答向导
 
 1. 进入详细信息页面并搜索`clientdx.exe`、`Extreme Starry.exe`字样的程序
 
-   ![](image/GameRunning/1701930711777.webp =450x)
+   ![|450x0](image/GameRunning/1701930711777.webp)
 
 1. 单击右键选择结束任务，再重新双击运行`Extreme Starry.exe`
 

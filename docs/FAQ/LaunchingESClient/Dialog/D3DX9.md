@@ -2,7 +2,7 @@
 title: Extreme Starry 疑难解答向导
 ---
 
-![](image/D3DX9/1703677149245.webp =300x)
+![|300x0](image/D3DX9/1703677149245.webp)
 
 请通过以下链接下载并安装DirectX 9运行时：
 https://www.microsoft.com/zh-cn/download/details.aspx?id=35

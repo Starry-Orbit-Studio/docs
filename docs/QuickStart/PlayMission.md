@@ -2,11 +2,11 @@
 title: 如何游玩战役
 ---
 
-![](image/PlayMission/1711772168084.webp =650x)
+![|650x0](image/PlayMission/1711772168084.webp)
 
 如上图红框所示，点击客户端主菜单的`新战役`按钮，即可进入战役选关界面
 
-![](image/PlayMission/1711771982728.webp =650x)
+![|650x0](image/PlayMission/1711771982728.webp)
 
 在战役选关界面：
 

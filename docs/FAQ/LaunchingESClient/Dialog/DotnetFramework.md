@@ -15,8 +15,8 @@ title: Extreme Starry 疑难解答向导
 
 windows 7 用户可能在安装`.NET framework 4.8`时会遇到如下错误：
 
-![](image/DotnetFramework/1701955211732.webp =350x)
-![](image/DotnetFramework/1701932585020.webp =350x)
+![|350x0](image/DotnetFramework/1701955211732.webp)
+![|350x0](image/DotnetFramework/1701932585020.webp)
 
 这个问题是您的 windows 7 系统尚未安装 KB3004394 和 KB2718704 安全补丁导致的
 

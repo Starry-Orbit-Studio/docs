@@ -2,11 +2,11 @@
 title: 如何进行遭遇战
 ---
 
-![](image/PlaySkirmish/1701947678492.webp =650x)
+![|650x0](image/PlaySkirmish/1701947678492.webp)
 
 如上图红框所示，点击客户端主菜单的`遭遇战`按钮，即可进入遭遇战界面
 
-![](image/PlaySkirmish/1701947880486.webp =650x)
+![|650x0](image/PlaySkirmish/1701947880486.webp)
 
 如果您是新手玩家，想来挑战一下简单AI试试手，那么我们将推荐以下新手配置：
 

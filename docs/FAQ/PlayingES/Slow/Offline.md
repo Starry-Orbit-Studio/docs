@@ -23,7 +23,7 @@ title: Extreme Starry 疑难解答向导
 
 ## 关闭reshade
 
-![](../../PlayingES/image/DDRAW/1701917686956.webp =400x)
+![|400x0](../../PlayingES/image/DDRAW/1701917686956.webp)
 
 reshade可以让游戏的光效和阴影等动画、特效和环境更加真实和炫酷，但它需要调用一定的GPU算力
 对于没有独立显卡的玩家而言，开启reshade会大幅降低游戏性能，此时建议关闭reshade

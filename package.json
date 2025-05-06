@@ -13,22 +13,22 @@
     "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.21",
-    "@vuepress/plugin-feed": "2.0.0-rc.95",
+    "@vuepress/bundler-vite": "2.0.0-rc.22",
+    "@vuepress/plugin-feed": "2.0.0-rc.99",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.99",
     "htmlparser2": "^10.0.0",
     "husky": "^9.1.7",
     "mermaid": "^11.6.0",
     "prettier": "^3.5.3",
     "prettier-plugin-organize-imports": "^4.1.0",
     "prettier-plugin-pkg": "^0.19.0",
-    "sass-embedded": "^1.86.3",
+    "sass-embedded": "^1.87.0",
     "typescript": "^5.8.3",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0",
-    "vue-tsc": "^2.2.8",
-    "vuepress": "2.0.0-rc.21",
-    "vuepress-plugin-search-pro": "2.0.0-rc.59",
-    "vuepress-theme-hope": "2.0.0-rc.81"
+    "vue-router": "^4.5.1",
+    "vue-tsc": "^2.2.10",
+    "vuepress": "2.0.0-rc.22",
+    "vuepress-theme-hope": "2.0.0-rc.85"
   },
   "prettier": {
     "printWidth": 80,

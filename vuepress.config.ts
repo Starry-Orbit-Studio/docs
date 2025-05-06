@@ -1,6 +1,5 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
-import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import ESDNGuide from './plugins/guide'
 import head from './vuepress.head'
 import theme from './vuepress.theme'
@@ -38,10 +37,6 @@ export default defineUserConfig({
   // shouldPrefetch: false,
 
   plugins: [
-    searchProPlugin({
-      // 索引全部内容
-      indexContent: true,
-    }),
     ESDNGuide({
       includes: ['/FAQ/', '/QuickStart/'],
     }),

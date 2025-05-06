@@ -144,7 +144,6 @@ export default hopeTheme(
       imgLazyload: true,
       imgMark: true,
       imgSize: true,
-      obsidianImgSize: true,
       include: true,
       linkify: true,
       linksCheck: true,
@@ -181,6 +180,10 @@ export default hopeTheme(
         atom: true,
         json: true,
         rss: true,
+      },
+
+      slimsearch: {
+        indexContent: true,
       },
 
       components: {
