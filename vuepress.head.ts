@@ -10,7 +10,54 @@ const html = (template: TemplateStringsArray, ...args: string[]): string => {
   return result
 }
 
-const document = html` <link rel="icon" href="/logo.webp" /> `
+const notOnDev = (text: string) =>
+  process.env.NODE_ENV === 'development' ? '' : text
+
+const document = html`
+  <link rel="dns-prefetch" href="https://licensebuttons.net/" />
+  <link rel="preconnect" crossorigin href="https://licensebuttons.net/" />
+  ${notOnDev(html`
+    <!-- Microsoft Clarity -->
+    <link rel="dns-prefetch" href="https://www.clarity.ms/" />
+    <link rel="dns-prefetch" href="https://l.clarity.ms/" />
+    <link rel="preconnect" crossorigin href="https://www.clarity.ms/" />
+    <link rel="preconnect" crossorigin href="https://l.clarity.ms/" />
+    <script type="text/javascript">
+      ;(function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            ;(c[a].q = c[a].q || []).push(arguments)
+          }
+        t = l.createElement(r)
+        t.async = 1
+        t.src = 'https://www.clarity.ms/tag/' + i
+        y = l.getElementsByTagName(r)[0]
+        y.parentNode.insertBefore(t, y)
+      })(window, document, 'clarity', 'script', 'rbfqjkfita')
+    </script>
+  `)}
+  ${notOnDev(html`
+    <!-- Google tag (gtag.js) -->
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link
+      rel="preconnect"
+      crossorigin
+      href="https://www.googletagmanager.com" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7HS0R3CMWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-7HS0R3CMWQ')
+    </script>
+  `)}
+`
 
 const head: HeadConfig[] = parseDocument(document)
   .children.filter(i => 'name' in i && 'tagName' in i)
