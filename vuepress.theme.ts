@@ -45,7 +45,7 @@ const copyright = (locale: keyof typeof license) => {
 
 export default hopeTheme(
   {
-    hostname: 'https://es.ra2modol.com',
+    hostname: 'https://es.starry-orbit-studio.cn',
 
     logo: '/logo.webp',
 
