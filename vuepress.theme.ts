@@ -66,6 +66,9 @@ export default hopeTheme(
       'Word',
     ],
 
+    footer:
+      '<a href="https://beian.miit.gov.cn/" target="_blank">黑ICP备2025035694号-2</a>',
+
     locales: {
       /**
        * Chinese locale config
